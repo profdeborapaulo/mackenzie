@@ -1,0 +1,9 @@
+configuracao:
+  autor: Debora B. Paulo
+  conexao:
+    banco: vendas
+    host: localhost
+    senha: '1234'
+    usuario: root
+  descricao: Configuração de conexão com banco de dados
+  versao: 1.0
