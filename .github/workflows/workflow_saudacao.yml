@@ -1,0 +1,11 @@
+name: Teste do GitHub Actions
+
+on:
+  push:   # Ativa o workflow quando há um push no repositório
+
+jobs:
+  saudacao:
+    runs-on: ubuntu-latest   # Sistema operacional onde o job vai rodar
+    steps:
+      - name: Mostrar mensagem de boas-vindas
+        run: echo "O GitHub Actions está funcionando! 🚀"
